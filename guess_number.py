@@ -67,3 +67,6 @@ if st.button("🔄 Restart Challenge"):
     st.session_state.target_number = random.randint(1, 100)
     st.session_state.tries = 0
     st.rerun()  # ✅ Updated from st.experimental_rerun()
+
+# Check out the output
+# https://guessthenumbergamecomputer-mwabgqkwwev3ejrjfeiaks.streamlit.app/
